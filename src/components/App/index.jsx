@@ -33,9 +33,9 @@ export default class App extends Component {
     this.state = {
       options: {
         passwordLength: 9,
-        minDigitProportion: 0.1,
-        minSymbolProportion: 0.1,
-        maxCaseVariance: 0.1,
+        minDigitProportion: 0.01,
+        minSymbolProportion: 0.01,
+        maxCaseVariance: 0.01,
         useLowercase: true,
         useUppercase: true,
         useDigits: true,
