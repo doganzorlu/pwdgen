@@ -32,9 +32,9 @@ export default class App extends Component {
     super();
     this.state = {
       options: {
-        passwordLength: 32,
-        minDigitProportion: 0.0,
-        minSymbolProportion: 0.0,
+        passwordLength: 9,
+        minDigitProportion: 1.0,
+        minSymbolProportion: 1.0,
         maxCaseVariance: 1.0,
         useLowercase: true,
         useUppercase: true,
